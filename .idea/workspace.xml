@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="utrev-sdk-chain:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9db69c05-c1c7-4b66-80ba-99f31e65ebd6" name="Changes" comment="优化传参，优化gas中位数为基础值的1.5倍" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="86lo76dy" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CvVFXjcK4c9wfUiRF4V3W4JWOS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kingym/soft/vertu/j-pro/wallet-sdk",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22528736",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bchain" />
+      <recent name="bchain.impl" />
+      <recent name="bchain.call" />
+      <recent name="common" />
+      <recent name="utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ETHChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bchain.ETHChain" />
+      <module name="utrev-sdk-chain.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bchain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="utrev-sdk-chain.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Omni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Omni" />
+      <module name="utrev-sdk-chain.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="btcJsonRpc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.btcJsonRpc" />
+      <module name="utrev-sdk-chain.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.start" />
+      <module name="utrev-sdk-chain.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.start" />
+        <item itemvalue="Application.btcJsonRpc" />
+        <item itemvalue="Application.Omni" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ETHChain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9db69c05-c1c7-4b66-80ba-99f31e65ebd6" name="Changes" comment="" />
+      <created>1659682943119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659682943119</updated>
+      <workItem from="1659682945959" duration="9947000" />
+      <workItem from="1659922203896" duration="17905000" />
+      <workItem from="1659951241564" duration="3246000" />
+      <workItem from="1660009679317" duration="580000" />
+      <workItem from="1660010294143" duration="3298000" />
+      <workItem from="1660015659772" duration="5597000" />
+      <workItem from="1660093594933" duration="18007000" />
+      <workItem from="1660121876120" duration="5595000" />
+      <workItem from="1660182875957" duration="51727000" />
+      <workItem from="1660468179636" duration="11463000" />
+      <workItem from="1660526764939" duration="10498000" />
+      <workItem from="1660548338570" duration="59323000" />
+      <workItem from="1660794243210" duration="8983000" />
+      <workItem from="1660811825961" duration="602000" />
+      <workItem from="1660872024790" duration="1262000" />
+      <workItem from="1661161631494" duration="254000" />
+      <workItem from="1661179509080" duration="1085000" />
+      <workItem from="1661751954658" duration="247000" />
+      <workItem from="1661757669219" duration="1004000" />
+      <workItem from="1661761933678" duration="500000" />
+      <workItem from="1661824604380" duration="8610000" />
+      <workItem from="1661851069652" duration="2027000" />
+      <workItem from="1661908080906" duration="23242000" />
+      <workItem from="1662083624448" duration="3154000" />
+      <workItem from="1662183692363" duration="757000" />
+      <workItem from="1662340095781" duration="9160000" />
+      <workItem from="1662424553829" duration="48575000" />
+      <workItem from="1663298436993" duration="28000" />
+      <workItem from="1663307686446" duration="3717000" />
+      <workItem from="1663508596972" duration="1949000" />
+      <workItem from="1663559969354" duration="5641000" />
+      <workItem from="1663643542325" duration="1399000" />
+      <workItem from="1663664984909" duration="571000" />
+      <workItem from="1663666329383" duration="2873000" />
+      <workItem from="1663729287653" duration="15314000" />
+      <workItem from="1663753223905" duration="11811000" />
+      <workItem from="1663902947816" duration="3019000" />
+      <workItem from="1663999361992" duration="1323000" />
+      <workItem from="1664008306413" duration="687000" />
+      <workItem from="1664010131421" duration="609000" />
+      <workItem from="1664156188796" duration="246000" />
+      <workItem from="1664171302541" duration="726000" />
+      <workItem from="1664173334130" duration="651000" />
+      <workItem from="1664181731324" duration="1453000" />
+      <workItem from="1664244193093" duration="222000" />
+      <workItem from="1664246498939" duration="1963000" />
+      <workItem from="1664260417768" duration="4110000" />
+      <workItem from="1664269542485" duration="10803000" />
+      <workItem from="1664298466809" duration="1484000" />
+      <workItem from="1664325131771" duration="2671000" />
+      <workItem from="1665495696348" duration="1319000" />
+      <workItem from="1665497330341" duration="1099000" />
+      <workItem from="1667273247684" duration="1833000" />
+      <workItem from="1667276907995" duration="55000" />
+      <workItem from="1667351264824" duration="719000" />
+      <workItem from="1667356636163" duration="352000" />
+      <workItem from="1669009289363" duration="286000" />
+      <workItem from="1669012853314" duration="1509000" />
+    </task>
+    <task id="LOCAL-00001" summary="优化传参，优化gas中位数为基础值的1.5倍">
+      <created>1663748847427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663748847427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="优化传参，优化gas中位数为基础值的1.5倍" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化传参，优化gas中位数为基础值的1.5倍" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/spv/App2.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/spv/App2.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/btc/SignBTCInfo.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/btc/SignBTCInfo.java</url>
+          <line>281</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-1.8.0_342/Contents/Home/src.zip!/java/util/List.java</url>
+          <line>533</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/common/BigDecimalUtils.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.IllegalFormatConversionException" package="java.util" />
+          <option name="timeStamp" value="20" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="34" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bchain/impl/EVMChain.java</url>
+          <line>42</line>
+          <properties class="bchain.impl.EVMChain" method="importPrivateKey">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="Numeric.toHexString(bytesTransaction)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

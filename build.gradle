@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.utrev'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.web3j:core:4.8.7'
+    implementation 'org.bitcoinj:bitcoinj-core:0.14.7'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.6'
+    implementation 'wf.bitcoin:bitcoin-rpc-client:1.1.0'
+    implementation 'com.alibaba:fastjson:1.2.83'
+    implementation 'org.slf4j:slf4j-simple:1.6.1'
+
+}
+
+test {
+    useJUnitPlatform()
+}
