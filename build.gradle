@@ -16,7 +16,7 @@ dependencies {
     implementation 'wf.bitcoin:bitcoin-rpc-client:1.1.0'
     implementation 'com.alibaba:fastjson:1.2.83'
     implementation 'org.slf4j:slf4j-simple:1.6.1'
-
+    implementation 'io.emeraldpay.polkaj:0.3.0'
 }
 
 test {

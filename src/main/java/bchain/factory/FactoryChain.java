@@ -18,6 +18,8 @@ public class FactoryChain {
             return new EVMChain();
         }else if("AVAX".equals(type)){
             return new EVMChain();
+        }else if("POLKADOT".equals(type)){
+            return new EVMChain();
         }
         return null;
     }
